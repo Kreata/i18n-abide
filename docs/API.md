@@ -56,24 +56,6 @@ The following example shows how to set the locale of the request to `zh_TW`
 
 Perhaps `zh-TW` came from the session or user preferences, for example.
 
-### Choosing file format
-By default PO/POT files are used. This can be changed during setup:
-
-```javascript
-app.use(i18n.abide({
-  supported_languages: ['en-US', 'de', 'es', 'db-LB', 'it-CH'],
-  default_lang: 'en-US',
-  debug_lang: 'it-CH',
-  translation_directory: 'i18n',
-  translation_type: 'plist'
-}));
-```
-
-The `translation_type` option will cause `i18n-abide` to look for files named
-`messages.plist` in locale directories beneath your `translation_directory` root.
-For example, the `es` language listed above should be located at
-`i18n/es/messages.plist`.
-
 ## format_fn_name Option
 
 For compatibility with `express-resource` and other apps,

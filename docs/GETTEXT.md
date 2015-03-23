@@ -8,9 +8,6 @@ between releases.
 
 ## Working with PO/POT files, and gettext
 
-If using the default of PO/POT files instead of plist,
-you must transform your strings such that `i18n-abide` can work with them.
-
 ### Setup Gettext
 
     $ mkdir -p locale/templates/LC_MESSAGES
