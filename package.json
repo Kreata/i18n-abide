@@ -16,10 +16,7 @@
   "engines": {
     "node": ">= 0.6.2"
   },
-  "dependencies": {
-    "async": "^0.2.10",
-    "jsxgettext": "^0.3.9"
-  },
+  "dependencies": {},
   "devDependencies": {
     "vows": "^0.5.13"
   },
