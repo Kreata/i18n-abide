@@ -17,11 +17,11 @@
     "node": ">= 0.6.2"
   },
   "dependencies": {
-    "async": "0.1.22",
-    "jsxgettext": "0.3.9"
+    "async": "^0.2.10",
+    "jsxgettext": "^0.3.9"
   },
   "devDependencies": {
-    "vows": "0.5.13"
+    "vows": "^0.5.13"
   },
   "scripts": {
     "test": "NODE_PATH=lib node_modules/.bin/vows tests/*-tests.js --spec"
