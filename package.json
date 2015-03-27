@@ -1,5 +1,6 @@
 {
   "author": "Austin King <shout@ozten.com> (http://ozten.com)",
+  "private": true,
   "name": "i18n-abide",
   "description": "Express/connect module for Node i18n and l10n support",
   "version": "0.0.22",
@@ -17,25 +18,13 @@
   },
   "dependencies": {
     "async": "0.1.22",
-    "gobbledygook": "https://github.com/lloyd/gobbledygook/tarball/354042684056e57ca77f036989e907707a36cff2",
-    "jsxgettext": "0.3.9",
-    "optimist": "0.3.4"
+    "jsxgettext": "0.3.9"
   },
   "devDependencies": {
     "vows": "0.5.13"
   },
   "scripts": {
     "test": "NODE_PATH=lib node_modules/.bin/vows tests/*-tests.js --spec"
-  },
-  "bin": {
-    "check-l10n-config": "bin/check-l10n-config.js",
-    "check-po": "bin/check-po.sh",
-    "compile-json": "bin/compile-json",
-    "compile-mo": "bin/compile-mo.sh",
-    "every-locale.js": "bin/every-locale.js",
-    "extract-pot": "bin/extract-pot",
-    "merge-po": "bin/merge-po.sh",
-    "po2json.js": "bin/po2json.js"
   },
   "licenses": [
     {
